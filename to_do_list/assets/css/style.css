@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#todo-list {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+/* 
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+} */
+.task-item input[type="checkbox"]:checked {
+  background-color: #002B4E !important;
+  color: white;
+}
